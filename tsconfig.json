@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "lib": ["es6"],
+        "allowJs": true,
+        "outDir": "build",
+        "rootDir": "./",
+        "strict": false,
+        "noImplicitAny": false,
+        "esModuleInterop": true,
+        "resolveJsonModule": true,
+        "allowSyntheticDefaultImports": true
+    },
+    "includes": ["src/*.ts"],
+    "exclude": ["node_modules"]
+}
